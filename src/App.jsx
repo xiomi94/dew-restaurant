@@ -10,12 +10,14 @@ function App() {
     <>
       <Header />
       <main>
-        <BrowserRouter>
-          <Routes>
-            <Route path="/categories" element={<CategoriesPage />} />
-            <Route path="*" element={<Navigate to="/categories" replace />} />
-          </Routes>
-        </BrowserRouter>
+        <div className='main-max-width'>
+          <BrowserRouter>
+            <Routes>
+              <Route path="/categories" element={<CategoriesPage />} />
+              <Route path="*" element={<Navigate to="/categories" replace />} />
+            </Routes>
+          </BrowserRouter>
+        </div>
       </main>
     </>
   )

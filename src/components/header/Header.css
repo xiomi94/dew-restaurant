@@ -1,14 +1,12 @@
 header {
   width: 100%;
-  background-color: rgb(158, 201, 201);
+  background-color: var(--background-primary-color);
+  border-bottom: 2px solid var(--border-background-color);
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   color: #FFFFFF;
-  font-family: "Bungee", sans-serif;
-  font-weight: 400;
-  font-style: normal;
   padding: 10px 0;
 }
 

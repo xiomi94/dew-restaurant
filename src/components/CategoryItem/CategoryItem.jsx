@@ -1,10 +1,10 @@
 import './CategoryItem.css'
 
-function CategoryItem() {
+function CategoryItem({category}) {
   return (
     <div className="category-card">
-      <img src="https://www.themealdb.com/images/category/beef.png" alt="meat" />
-      <p>Category name: Meat</p>
+      <img src={category.strCategoryThumb} alt={category.strCategory} />
+      <p className='category-card-name'>{category.strCategory}</p>
     </div>
   );
 }
