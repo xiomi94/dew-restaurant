@@ -1,0 +1,6 @@
+.category-list-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  list-style: none;
+  gap: 15px;
+}
