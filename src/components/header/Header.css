@@ -1,0 +1,17 @@
+header {
+  background-color: rgb(158, 201, 201);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+  font-family: "Bungee", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 10px 0;
+}
+
+.header-logo {
+  height: 70px;
+  width: auto;
+}
