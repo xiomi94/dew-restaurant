@@ -5,6 +5,7 @@ import { BrowserRouter, Navigate, Route, Routes } from 'react-router';
 import CategoriesPage from './pages/CategoriesPage/categoriesPage';
 import Spinner from './components/Spinner/Spinner'
 import { createContext } from 'react';
+import MealsPage from './pages/MealsPage/MealsPage';
 
 export const LoadingContext = createContext({
   loading: false,
@@ -25,6 +26,7 @@ function App() {
             <BrowserRouter>
               <Routes>
                 <Route path="/categories" element={<CategoriesPage />} />
+                <Route path='/meals' element={<MealsPage/>} />
                 <Route path="*" element={<Navigate to="/categories" replace />} />
               </Routes>
             </BrowserRouter>
