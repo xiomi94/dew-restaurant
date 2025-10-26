@@ -43,3 +43,11 @@ The app uses data from the public API [**TheMealDB**](https://www.themealdb.com/
 ## Author
 
 - Xiomara Jiménez Velázquez
+
+## Photos
+
+![alt text](image.png)
+
+![alt text](image-1.png)
+
+![alt text](image-2.png)
