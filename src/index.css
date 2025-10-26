@@ -1,3 +1,18 @@
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100dvh;
+}
+
 body {
   margin: 0;
+  font-family: "Grenze", serif;
+  font-style: normal;
+  color: var(--text-primary-color);
+}
+
+:root {
+  --text-primary-color: #cd1e45;
+  --background-primary-color: #f5e9d9;
+  --border-background-color: #ffce8b;
 }
