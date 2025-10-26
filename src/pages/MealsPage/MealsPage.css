@@ -1,0 +1,18 @@
+.meals-page-title {
+  font-size: 35px;
+  text-align: center;
+  font-weight: 800;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.back-button {
+  color: var(--text-primary-color);
+  margin: 15px 0;
+  padding: 5px 25px;
+  border-radius: 5px;
+  border: 2px solid var(--border-background-color);
+  background-color: var(--background-primary-color);
+  cursor: pointer;
+  font-size: 30px;
+}
