@@ -7,8 +7,6 @@ function CategoryList({ categoryList }) {
     return <li key={category.idCategory}><CategoryItem category={category}/></li>
   })
 
-  console.log(categoryList)
-
   return (
     <ul className="category-list-container">
         {categoryListRender}

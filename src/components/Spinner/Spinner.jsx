@@ -1,7 +1,12 @@
-function Spinner() {
+import './Spinner.css';
+
+function Spinner({ loading = false }) {
+  
+  if (!loading) return null;
+
   return (
-    <div>
-        
+    <div className="spinner-overlay">
+      <div className="spinner" />
     </div>
   );
 }
