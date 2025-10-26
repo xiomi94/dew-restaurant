@@ -1,16 +1,53 @@
-# React + Vite
+# DEW Restaurant
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+This is my first **React** project for the **DEW (Web Application Development)** course.  
+The application is a restaurant menu that allows users to browse dish categories and see the available meals within each category.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The app uses data from the public API [**TheMealDB**](https://www.themealdb.com/api/json/v1/1/categories.php)
 
-## React Compiler
+## Technologies
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- [React](https://es.react.dev/)
+- [React Router](https://reactrouter.com/)
+- [CSS (Flexbox and Grid)](https://css-tricks.com/)
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repository:
+```bash
+  git clone https://github.com/xiomi94/dew-restaurant.git
+```
+
+2. Install dependencies:
+```bash
+  npm install
+```
+
+3. Run the aplication:
+```bash
+  npm run dev
+```
+
+## Usage
+
+- The homepage displays the dish categories.
+
+- Click on a category to see the meals within that category.
+
+- Each meal shows an image, name, and price.
+
+- Use the “← Back” button to return to the categories page.
+
+## Author
+
+- Xiomara Jiménez Velázquez
+
+## Photos
+
+![alt text](image.png)
+
+![alt text](image-1.png)
+
+![alt text](image-2.png)
